@@ -5,10 +5,15 @@
   /*Purple 260 - Red 355 - Blue 224 - Pink 340*/
   /* HSL color mode */
   --hue-color: 224;
+<<<<<<< HEAD
   --second-color: #eecc42;
   /* --second-color: #558dca; */
   --first-color: #50bff1;
   --font-color:#222;
+=======
+  --first-color: hsl(var(--hue-color), 89%, 60%);
+  --second-color: hsl(var(--hue-color), 56%, 12%);
+>>>>>>> da6f8fd (style completed)
   /*===== Fuente y tipografia =====*/
   --body-font: "Poppins", sans-serif;
   --big-font-size: 2rem;
@@ -49,7 +54,11 @@ body {
   margin: var(--header-height) 0 0 0;
   font-family: var(--body-font);
   font-size: var(--normal-font-size);
+<<<<<<< HEAD
   color: var(--font-color);
+=======
+  color: var(--second-color);
+>>>>>>> da6f8fd (style completed)
 }
 
 h1,
@@ -78,7 +87,11 @@ img {
 .section-title {
   position: relative;
   font-size: var(--h2-font-size);
+<<<<<<< HEAD
   color: var(--font-color);
+=======
+  color: var(--first-color);
+>>>>>>> da6f8fd (style completed)
   margin-top: var(--mb-2);
   margin-bottom: var(--mb-4);
   text-align: center;
@@ -165,11 +178,19 @@ img {
 }
 
 .nav__logo {
+<<<<<<< HEAD
   color: var(--font-color);
 }
 
 .nav__toggle {
   color: var(--font-color);
+=======
+  color: var(--second-color);
+}
+
+.nav__toggle {
+  color: var(--second-color);
+>>>>>>> da6f8fd (style completed)
   font-size: 1.5rem;
   cursor: pointer;
 }
@@ -183,7 +204,10 @@ img {
   left: 0;
   top: 2rem;
   background-color: var(--first-color);
+<<<<<<< HEAD
   transition: all 0.6s;
+=======
+>>>>>>> da6f8fd (style completed)
 }
 
 /*=== Show menu ===*/
@@ -220,11 +244,19 @@ img {
   width: max-content;
   margin-bottom: var(--mb-2);
   font-size: 1.5rem;
+<<<<<<< HEAD
   color: var(--font-color);
 }
 
 .home__social-icon:hover {
   color: var(--font-color);
+=======
+  color: var(--second-color);
+}
+
+.home__social-icon:hover {
+  color: var(--first-color);
+>>>>>>> da6f8fd (style completed)
 }
 
 .home__img {
@@ -245,7 +277,11 @@ img {
 /*BUTTONS*/
 .button {
   display: inline-block;
+<<<<<<< HEAD
   background-color: var(--font-color);
+=======
+  background-color: var(--first-color);
+>>>>>>> da6f8fd (style completed)
   color: #fff;
   padding: 0.75rem 2.5rem;
   font-weight: var(--font-semi);
@@ -386,7 +422,11 @@ img {
 /* ===== FOOTER =====*/
 .footer {
   background-color: var(--second-color);
+<<<<<<< HEAD
   /* color: #fff; */
+=======
+  color: #fff;
+>>>>>>> da6f8fd (style completed)
   text-align: center;
   font-weight: var(--font-semi);
   padding: 2rem 0;
@@ -403,7 +443,11 @@ img {
 
 .footer__icon {
   font-size: 1.5rem;
+<<<<<<< HEAD
   color: var(--font-color);
+=======
+  color: #fff;
+>>>>>>> da6f8fd (style completed)
   margin: 0 var(--mb-2);
 }
 
@@ -466,6 +510,7 @@ img {
 @media screen and (min-width: 768px) {
   body {
     margin: 0;
+<<<<<<< HEAD
   }
   .section {
     padding-top: 4rem;
@@ -509,6 +554,50 @@ img {
     width: 450px;
     margin-right: 1rem;
   }
+=======
+  }
+  .section {
+    padding-top: 4rem;
+    padding-bottom: 3rem;
+  }
+  .section-title {
+    margin-bottom: var(--mb-6);
+  }
+  .section-title::after {
+    width: 80px;
+    top: 3rem;
+  }
+  .nav {
+    height: calc(var(--header-height) + 1.5rem);
+  }
+  .nav__list {
+    display: flex;
+    padding-top: 0;
+  }
+  .nav__item {
+    margin-left: var(--mb-6);
+    margin-bottom: 0;
+  }
+  .nav__toggle {
+    display: none;
+  }
+  .nav__link {
+    color: var(--second-color);
+  }
+  .home {
+    padding: 8rem 0 2rem;
+  }
+  .home__img {
+    width: 400px;
+    bottom: 10%;
+  }
+  .about__container {
+    padding-top: 2rem;
+  }
+  .about__img img {
+    width: 300px;
+  }
+>>>>>>> da6f8fd (style completed)
   .skills__container {
     grid-template-columns: repeat(2, 1fr);
     column-gap: 2rem;
