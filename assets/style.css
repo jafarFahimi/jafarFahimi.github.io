@@ -6,14 +6,20 @@
   /* HSL color mode */
   --hue-color: 224;
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 44eb3ca (colors changed)
   --second-color: #eecc42;
   /* --second-color: #558dca; */
   --first-color: #50bff1;
   --font-color:#222;
+<<<<<<< HEAD
 =======
   --first-color: hsl(var(--hue-color), 89%, 60%);
   --second-color: hsl(var(--hue-color), 56%, 12%);
 >>>>>>> da6f8fd (style completed)
+=======
+>>>>>>> 44eb3ca (colors changed)
   /*===== Fuente y tipografia =====*/
   --body-font: "Poppins", sans-serif;
   --big-font-size: 2rem;
@@ -55,10 +61,14 @@ body {
   font-family: var(--body-font);
   font-size: var(--normal-font-size);
 <<<<<<< HEAD
+<<<<<<< HEAD
   color: var(--font-color);
 =======
   color: var(--second-color);
 >>>>>>> da6f8fd (style completed)
+=======
+  color: var(--font-color);
+>>>>>>> 44eb3ca (colors changed)
 }
 
 h1,
@@ -88,10 +98,14 @@ img {
   position: relative;
   font-size: var(--h2-font-size);
 <<<<<<< HEAD
+<<<<<<< HEAD
   color: var(--font-color);
 =======
   color: var(--first-color);
 >>>>>>> da6f8fd (style completed)
+=======
+  color: var(--font-color);
+>>>>>>> 44eb3ca (colors changed)
   margin-top: var(--mb-2);
   margin-bottom: var(--mb-4);
   text-align: center;
@@ -179,6 +193,7 @@ img {
 
 .nav__logo {
 <<<<<<< HEAD
+<<<<<<< HEAD
   color: var(--font-color);
 }
 
@@ -191,6 +206,13 @@ img {
 .nav__toggle {
   color: var(--second-color);
 >>>>>>> da6f8fd (style completed)
+=======
+  color: var(--font-color);
+}
+
+.nav__toggle {
+  color: var(--font-color);
+>>>>>>> 44eb3ca (colors changed)
   font-size: 1.5rem;
   cursor: pointer;
 }
@@ -245,6 +267,7 @@ img {
   margin-bottom: var(--mb-2);
   font-size: 1.5rem;
 <<<<<<< HEAD
+<<<<<<< HEAD
   color: var(--font-color);
 }
 
@@ -257,6 +280,13 @@ img {
 .home__social-icon:hover {
   color: var(--first-color);
 >>>>>>> da6f8fd (style completed)
+=======
+  color: var(--font-color);
+}
+
+.home__social-icon:hover {
+  color: var(--font-color);
+>>>>>>> 44eb3ca (colors changed)
 }
 
 .home__img {
@@ -278,10 +308,14 @@ img {
 .button {
   display: inline-block;
 <<<<<<< HEAD
+<<<<<<< HEAD
   background-color: var(--font-color);
 =======
   background-color: var(--first-color);
 >>>>>>> da6f8fd (style completed)
+=======
+  background-color: var(--font-color);
+>>>>>>> 44eb3ca (colors changed)
   color: #fff;
   padding: 0.75rem 2.5rem;
   font-weight: var(--font-semi);
@@ -423,10 +457,14 @@ img {
 .footer {
   background-color: var(--second-color);
 <<<<<<< HEAD
+<<<<<<< HEAD
   /* color: #fff; */
 =======
   color: #fff;
 >>>>>>> da6f8fd (style completed)
+=======
+  /* color: #fff; */
+>>>>>>> 44eb3ca (colors changed)
   text-align: center;
   font-weight: var(--font-semi);
   padding: 2rem 0;
@@ -444,10 +482,14 @@ img {
 .footer__icon {
   font-size: 1.5rem;
 <<<<<<< HEAD
+<<<<<<< HEAD
   color: var(--font-color);
 =======
   color: #fff;
 >>>>>>> da6f8fd (style completed)
+=======
+  color: var(--font-color);
+>>>>>>> 44eb3ca (colors changed)
   margin: 0 var(--mb-2);
 }
 
@@ -582,7 +624,7 @@ img {
     display: none;
   }
   .nav__link {
-    color: var(--second-color);
+    color: var(--font-color);
   }
   .home {
     padding: 8rem 0 2rem;
