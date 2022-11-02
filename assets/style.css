@@ -5,21 +5,21 @@
   /*Purple 260 - Red 355 - Blue 224 - Pink 340*/
   /* HSL color mode */
   --hue-color: 224;
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 44eb3ca (colors changed)
+/* <<<<<<< HEAD */
+/* <<<<<<< HEAD */
+/* ======= */
+/* >>>>>>> 44eb3ca (colors changed) */
   --second-color: #eecc42;
   /* --second-color: #558dca; */
   --first-color: #50bff1;
   --font-color:#222;
-<<<<<<< HEAD
-=======
+/* <<<<<<< HEAD */
+/* ======= */
   --first-color: hsl(var(--hue-color), 89%, 60%);
   --second-color: hsl(var(--hue-color), 56%, 12%);
->>>>>>> da6f8fd (style completed)
-=======
->>>>>>> 44eb3ca (colors changed)
+/* >>>>>>> da6f8fd (style completed) */
+/* ======= */
+/* >>>>>>> 44eb3ca (colors changed) */
   /*===== Fuente y tipografia =====*/
   --body-font: "Poppins", sans-serif;
   --big-font-size: 2rem;
@@ -60,15 +60,15 @@ body {
   margin: var(--header-height) 0 0 0;
   font-family: var(--body-font);
   font-size: var(--normal-font-size);
-<<<<<<< HEAD
-<<<<<<< HEAD
+/* <<<<<<< HEAD */
+/* <<<<<<< HEAD */
   color: var(--font-color);
-=======
+/* ======= */
   color: var(--second-color);
->>>>>>> da6f8fd (style completed)
-=======
+/* >>>>>>> da6f8fd (style completed) */
+/* ======= */
   color: var(--font-color);
->>>>>>> 44eb3ca (colors changed)
+/* >>>>>>> 44eb3ca (colors changed) */
 }
 
 h1,
@@ -97,15 +97,15 @@ img {
 .section-title {
   position: relative;
   font-size: var(--h2-font-size);
-<<<<<<< HEAD
-<<<<<<< HEAD
+/* <<<<<<< HEAD */
+/* <<<<<<< HEAD */
   color: var(--font-color);
-=======
+/* ======= */
   color: var(--first-color);
->>>>>>> da6f8fd (style completed)
-=======
+/* >>>>>>> da6f8fd (style completed) */
+/* ======= */
   color: var(--font-color);
->>>>>>> 44eb3ca (colors changed)
+/* >>>>>>> 44eb3ca (colors changed) */
   margin-top: var(--mb-2);
   margin-bottom: var(--mb-4);
   text-align: center;
@@ -192,27 +192,27 @@ img {
 }
 
 .nav__logo {
-<<<<<<< HEAD
-<<<<<<< HEAD
+/* <<<<<<< HEAD */
+/* <<<<<<< HEAD */
   color: var(--font-color);
 }
 
 .nav__toggle {
   color: var(--font-color);
-=======
+/* ======= */
   color: var(--second-color);
 }
 
 .nav__toggle {
   color: var(--second-color);
->>>>>>> da6f8fd (style completed)
-=======
+/* >>>>>>> da6f8fd (style completed) */
+/* ======= */
   color: var(--font-color);
 }
 
 .nav__toggle {
   color: var(--font-color);
->>>>>>> 44eb3ca (colors changed)
+/* >>>>>>> 44eb3ca (colors changed) */
   font-size: 1.5rem;
   cursor: pointer;
 }
@@ -226,10 +226,10 @@ img {
   left: 0;
   top: 2rem;
   background-color: var(--first-color);
-<<<<<<< HEAD
+/* <<<<<<< HEAD */
   transition: all 0.6s;
-=======
->>>>>>> da6f8fd (style completed)
+/* ======= */
+/* >>>>>>> da6f8fd (style completed) */
 }
 
 /*=== Show menu ===*/
@@ -266,27 +266,27 @@ img {
   width: max-content;
   margin-bottom: var(--mb-2);
   font-size: 1.5rem;
-<<<<<<< HEAD
-<<<<<<< HEAD
+/* <<<<<<< HEAD */
+/* <<<<<<< HEAD */
   color: var(--font-color);
 }
 
 .home__social-icon:hover {
   color: var(--font-color);
-=======
+/* ======= */
   color: var(--second-color);
 }
 
 .home__social-icon:hover {
   color: var(--first-color);
->>>>>>> da6f8fd (style completed)
-=======
+/* >>>>>>> da6f8fd (style completed) */
+/* ======= */
   color: var(--font-color);
 }
 
 .home__social-icon:hover {
   color: var(--font-color);
->>>>>>> 44eb3ca (colors changed)
+/* >>>>>>> 44eb3ca (colors changed) */
 }
 
 .home__img {
@@ -307,15 +307,15 @@ img {
 /*BUTTONS*/
 .button {
   display: inline-block;
-<<<<<<< HEAD
-<<<<<<< HEAD
+/* <<<<<<< HEAD */
+/* <<<<<<< HEAD */
   background-color: var(--font-color);
-=======
+/* ======= */
   background-color: var(--first-color);
->>>>>>> da6f8fd (style completed)
-=======
+/* >>>>>>> da6f8fd (style completed) */
+/* ======= */
   background-color: var(--font-color);
->>>>>>> 44eb3ca (colors changed)
+/* >>>>>>> 44eb3ca (colors changed) */
   color: #fff;
   padding: 0.75rem 2.5rem;
   font-weight: var(--font-semi);
@@ -456,15 +456,15 @@ img {
 /* ===== FOOTER =====*/
 .footer {
   background-color: var(--second-color);
-<<<<<<< HEAD
-<<<<<<< HEAD
+/* <<<<<<< HEAD */
+/* <<<<<<< HEAD */
   /* color: #fff; */
-=======
+/* ======= */
   color: #fff;
->>>>>>> da6f8fd (style completed)
-=======
+/* >>>>>>> da6f8fd (style completed) */
+/* ======= */
   /* color: #fff; */
->>>>>>> 44eb3ca (colors changed)
+/* >>>>>>> 44eb3ca (colors changed) */
   text-align: center;
   font-weight: var(--font-semi);
   padding: 2rem 0;
@@ -481,15 +481,15 @@ img {
 
 .footer__icon {
   font-size: 1.5rem;
-<<<<<<< HEAD
-<<<<<<< HEAD
+/* <<<<<<< HEAD */
+/* <<<<<<< HEAD */
   color: var(--font-color);
-=======
+/* ======= */
   color: #fff;
->>>>>>> da6f8fd (style completed)
-=======
+/* >>>>>>> da6f8fd (style completed) */
+/* ======= */
   color: var(--font-color);
->>>>>>> 44eb3ca (colors changed)
+/* >>>>>>> 44eb3ca (colors changed) */
   margin: 0 var(--mb-2);
 }
 
@@ -552,7 +552,7 @@ img {
 @media screen and (min-width: 768px) {
   body {
     margin: 0;
-<<<<<<< HEAD
+/* <<<<<<< HEAD */
   }
   .section {
     padding-top: 4rem;
@@ -596,7 +596,7 @@ img {
     width: 450px;
     margin-right: 1rem;
   }
-=======
+/* ======= */
   }
   .section {
     padding-top: 4rem;
@@ -640,7 +640,7 @@ img {
     width: 450px;
     margin-right: 1rem;
   }
->>>>>>> da6f8fd (style completed)
+/* >>>>>>> da6f8fd (style completed) */
   .skills__container {
     grid-template-columns: repeat(2, 1fr);
     column-gap: 2rem;
@@ -651,7 +651,7 @@ img {
     grid-template-columns: repeat(3, 1fr);
     column-gap: 2rem;
   }
-}
+
 
 @media screen and (min-width: 992px) {
   .bd-grid {
