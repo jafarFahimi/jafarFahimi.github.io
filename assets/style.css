@@ -637,7 +637,8 @@ img {
     padding-top: 2rem;
   }
   .about__img img {
-    width: 300px;
+    width: 450px;
+    margin-right: 1rem;
   }
 >>>>>>> da6f8fd (style completed)
   .skills__container {
