@@ -5,7 +5,7 @@
   /*Purple 260 - Red 355 - Blue 224 - Pink 340*/
   /* HSL color mode */
   --hue-color: 224;
-  --second-color: #eecc42;
+  --second-color: #3ebaf3;
   /* --second-color: #558dca; */
   --first-color: #50bff1;
   --font-color:#222;
@@ -221,7 +221,36 @@ img {
 }
 
 .home__title-color {
-  color: var(--first-color);
+  color: cyan;
+  -webkit-text-stroke: 2px #222;
+}
+.home-text-effect{
+  position: relative;
+  /* font-size: 14vw; */
+  color:#000;
+  -webkit-text-stroke: 2px cyan;
+  letter-spacing: 2px;
+}
+.home-text-effect::before{
+  content: attr(data-text);
+  position: absolute;
+  top:0;
+  left:0;
+  width: 0;
+  height: 100%;
+  color:cyan;
+  -webkit-text-stroke: 0 #222;
+  border-right: 2px solid cyan;
+  overflow: hidden;
+  animation: animate-effect 4s linear infinite;
+}
+@keyframes animate-effect {
+  0%,10%,100%{
+    width: 0;
+  }
+  70%,90%{
+    width: 100%;
+  }
 }
 
 .home__social {
