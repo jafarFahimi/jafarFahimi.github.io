@@ -273,21 +273,12 @@ img {
     color: var(--font-color);
 }
 
-.home__social-icon:hover {
+.home__social-icon:hover { 
     color: var(--font-color);
-    /* ======= */
-    color: var(--second-color);
+    transform: scale(1.5);
+    transition: 0.4s;
 }
-
-.home__social-icon:hover {
-    color: var(--font-color);
-}
-
-.home__social-icon:hover {
-    color: var(--font-color);
-    /* >>>>>>> 44eb3ca (colors changed) */
-}
-
+ 
 .home__img {
     position: absolute;
     right: 0;
@@ -482,9 +473,17 @@ img {
 
 .footer__social {
     margin-bottom: var(--mb-4);
-}
+  display: flex;
+  justify-content: center;
+  }
 
+.footer__icon:hover {
+  transform: scale(1.5);
+  transition: 0.4s;
+  /* font-size: 2rem; */ 
+}
 .footer__icon {
+  display: block;
     font-size: 1.5rem;
     color: var(--font-color);
     margin: 0 var(--mb-2);
