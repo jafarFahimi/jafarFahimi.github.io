@@ -1,15 +1,7 @@
 /*===== MENU SHOW =====*/
-const showMenu = (toggleId, navId) => {
-  const toggle = document.getElementById(toggleId),
-    nav = document.getElementById(navId);
-
-  if (toggle && nav) {
-    toggle.addEventListener("click", () => {
-      nav.classList.toggle("show");
-    });
-  }
-};
-showMenu("nav-toggle", "nav-menu");
+const toggle = document.getElementById("nav-toggle");
+let nav = document.getElementById("nav-menu");
+toggle.addEventListener("click", () => nav.classList.toggle("show"));
 
 /*==================== REMOVE MENU MOBILE ====================*/
 const navLink = document.querySelectorAll(".nav__link");
@@ -33,13 +25,9 @@ function scrollActive() {
     sectionId = current.getAttribute("id");
 
     if (scrollY > sectionTop && scrollY <= sectionTop + sectionHeight) {
-      document
-        .querySelector(".nav__menu a[href*=" + sectionId + "]")
-        .classList.add("active");
+      document.querySelector(".nav__menu a[href*=" + sectionId + "]").classList.add("active");
     } else {
-      document
-        .querySelector(".nav__menu a[href*=" + sectionId + "]")
-        .classList.remove("active");
+      document.querySelector(".nav__menu a[href*=" + sectionId + "]").classList.remove("active");
     }
   });
 }

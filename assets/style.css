@@ -137,7 +137,8 @@ img {
         position: fixed;
         top: var(--header-height);
         right: -100%;
-        width: 80%;
+        /* width: 40%; */
+        max-width: 165px;
         height: 100%;
         padding: 2rem;
         background-color: var(--second-color);
